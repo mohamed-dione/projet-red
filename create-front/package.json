@@ -3,19 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build || (echo 'Ignorer l erreur' && mkdir -p dist && cp index.html dist/)",
-  "lint": "eslint .",
-  "preview": "vite preview"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build || (echo 'Ignorer l erreur' && mkdir -p dist && cp index.html dist/)",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "autoprefixer": "^10.4.23",
     "axios": "^1.13.4",
     "postcss": "^8.5.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "react-router-dom": "^7.14.0",
+    "react-icons": "^5.6.0",
+    "react-router-dom": "^7.14.2",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
