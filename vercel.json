@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd create-front && npm run build",
+  "outputDirectory": "create-front/dist",
+  "installCommand": "cd create-front && npm install"
+}
