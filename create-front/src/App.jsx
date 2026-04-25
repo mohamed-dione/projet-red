@@ -299,7 +299,7 @@ const DashboardPage = ({ searchTerm }) => {
     { label: "Entités", value: "02", icon: <MdPeople />, color: "bg-blue-600" },
   ];
   const filteredStats = stats.filter(s => 
-    advancedFilter(s.label, searchTerm) || advancedFilter(s.value, searchTerm)
+    advancedFilter(s.label, searchTerm) || advancedFilter(s.value, searchTerm) || advancedFilter("Je ne sais pas quoi faire", searchTerm) // Ajout du filtre ici
   );
 
   return (
