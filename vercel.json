@@ -1,5 +1,7 @@
 {
-  "buildCommand": "cd create-front && npm run build",
-  "outputDirectory": "create-front/dist",
-  "installCommand": "cd create-front && npm install"
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "rootDirectory": "create-front"
 }
